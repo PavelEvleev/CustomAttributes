@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ea78a036a1a84d7e84545e0a0f3b5775" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="CustomAttributesModel.Attributes" Width="1.5" PointX="0.875" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CustomAttributesModel.FullTable" Width="1.5" PointX="3.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CustomAttributesModel.Persons" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CustomAttributesModel.sysdiagrams" Width="1.5" PointX="7" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="CustomAttributesModel.FK_FullTable_Attributes" ManuallyRouted="false" />
+        <AssociationConnector Association="CustomAttributesModel.FK_FullTable_Persons" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="4.6389376744791662" />
+          <ConnectorPoint PointX="2.91" PointY="4.6389376744791662" />
+          <ConnectorPoint PointX="2.91" PointY="4.4181043411458329" />
+          <ConnectorPoint PointX="4.25" PointY="4.4181043411458329" />
+          <ConnectorPoint PointX="4.25" PointY="3.6725878906249996" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
